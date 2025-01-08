@@ -1,0 +1,139 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100%;
+    min-height: 100vh;
+    background-color: cadetblue;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 1.2rem 0;
+}
+
+.UI{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start p{
+    font-size: 2.5rem;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+}
+
+.btns{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.O{
+    cursor: pointer;
+    font-size: 2rem;
+    padding: 0.5rem 0.8rem;
+    border: none;
+    border-radius: 50%;
+    background-color: bisque;
+}
+
+.X{
+    cursor: pointer;
+    font-size: 2rem;
+    padding: 0.5rem 0.8rem;
+    border: none;
+    border-radius: 50%;
+    background-color: bisque;
+}
+
+/* msg container */
+.msg-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#msg{
+    text-align: center;
+    font-size: 2rem;
+    color: blanchedalmond;
+}
+
+.newGameBtn{
+    font-size: 1.3rem;
+    color: white;
+    background-color: black;
+    padding: 0.5rem 0.6rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+/* game */
+
+.game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    max-width: 400px;
+}
+
+.game p{
+    font-size: 1.5rem;
+    background-color: black;
+    color: white;
+    font-weight: 300;
+    padding: 0.3rem 0.8rem;
+    border-radius: 0.5rem;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 0.8rem;
+    column-gap: 1.2rem;
+}
+
+.box{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 0.5rem;
+    background-color: wheat;
+    text-align: center;
+    font-size: 3rem;
+    color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resetBtn{
+    font-size: 1.3rem;
+    color: white;
+    background-color: black;
+    padding: 0.5rem 0.6rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
+
